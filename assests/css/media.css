@@ -1,0 +1,330 @@
+@media (max-width: 1395px) {
+  .card,
+  .service-card-b,
+  .service-card-bb,
+  .service-card-g,
+  .service-card-r {
+    width: 355px !important;
+  }
+  .card-title a {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .card-content {
+    margin-right: 30px !important ;
+    margin-left: 30px !important ;
+  }
+  .blogs br {
+    display: none;
+  }
+  .feedback-img {
+    left: 131px !important;
+  }
+}
+
+@media (max-width: 1375px) {
+  header .header-img {
+    right: 0 !important;
+  }
+  header .header-img img {
+    height: 600px !important;
+    width: 400px;
+    object-fit: cover;
+  }
+  header .header-vid {
+    right: 49px;
+    top: 82%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about .about-numbers i,
+  .about .about-numbers h3,
+  .about .about-numbers p {
+    margin-left: 40px;
+  }
+  .visits .visit-title,
+  .visits .book-visit {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .about .about-content {
+    justify-content: center;
+  }
+  .about .about-item {
+    padding: 70px 0px 40px 0px !important;
+  }
+  .visits .book-visit,
+  .visits .visit-title {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .carousel-control-prev:not(.feedback .carousel-control-prev) {
+    left: 87% !important;
+  }
+  .feedback .carousel-control-prev {
+    left: 42% !important;
+  }
+  .feedback .carousel-control-next {
+    right: 42% !important;
+  }
+  .about .about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .circle {
+    left: 34% !important;
+  }
+  .about .about-content {
+    padding-top: 130px !important;
+  }
+}
+@media (max-width: 1190px) {
+  header .scroll,
+  header::before {
+    display: none;
+  }
+  .card,
+  .service-card-b,
+  .service-card-bb,
+  .service-card-g,
+  .service-card-r {
+    margin-top: 30px;
+    width: 400px !important;
+  }
+
+  footer .col-lg-4 {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 1130px) and(min-width: 992px) {
+  nav .help-desk {
+    padding-right: 10px !important;
+  }
+  nav .help-desk a {
+    display: grid !important;
+  }
+  nav .help-desk a i {
+    padding-left: 40px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  nav .container {
+    max-width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  nav,
+  header {
+    padding-top: 0;
+  }
+  nav .navbar-brand img {
+    margin: 0 !important;
+    width: 180px !important;
+  }
+  header .header-img img,
+  .header-vid {
+    display: none;
+  }
+  header .main-title {
+    font-size: 48px !important;
+  }
+  /* .about .about-img {
+    right: 200px;
+  } */
+
+  .about .about-content {
+    padding-top: 100px;
+    margin: 0px !important;
+  }
+  .visits .visit-title,
+  .visits .book-visit {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .visits .book-visit .row:nth-of-type(2),
+  .visits .book-visit .row:nth-of-type(1) .col-lg-6:nth-of-type(2),
+  .visits .book-visit .row:nth-of-type(2) .col-lg-6:nth-of-type(2) {
+    padding-top: 10px !important;
+  }
+  footer .bottom-links,
+  footer .copy-right {
+    justify-content: center !important;
+  }
+  footer::before {
+    bottom: 134px !important;
+  }
+  .card,
+  .service-card-b,
+  .service-card-bb,
+  .service-card-g,
+  .service-card-r {
+    width: 350px !important;
+  }
+  .carousel-control-prev:not(.feedback .carousel-control-prev) {
+    left: 80% !important;
+  }
+  .about .circle {
+    left: 28% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-content {
+    text-align: center;
+  }
+  header .header-content .main-title {
+    font-size: 30px !important;
+  }
+  header .header-content .main-title br {
+    display: none;
+  }
+  header .header-content p {
+    font-size: 16px;
+  }
+  header .header-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .services .search {
+    margin: 0 !important;
+    padding-top: 30px !important;
+    padding-bottom: 120px !important ;
+  }
+  .services .search button {
+    top: 111px;
+    right: 254px;
+  }
+  .services .search form {
+    padding: 0px !important;
+    margin: 0 !important;
+  }
+  .services .search form input {
+    padding: 15px;
+  }
+
+  .about .col-xl-6:nth-of-type(2) {
+    margin: 0 !important;
+  }
+  .card,
+  .service-card-b,
+  .service-card-bb,
+  .service-card-g,
+  .service-card-r {
+    width: 100% !important;
+  }
+
+  .about .circle h3 {
+    font-size: 80px !important;
+    line-height: 80px !important;
+  }
+  .about .circle p {
+    font-size: 16px !important;
+    line-height: 21px !important;
+  }
+  .about .circle {
+    height: 200px !important;
+    width: 200px !important;
+    left: 32% !important;
+    top: 76% !important;
+  }
+  .about .about-img img {
+    width: 510px !important;
+  }
+  .visits .visits-emergency {
+    display: grid !important;
+  }
+  .emergency {
+    text-align: start !important;
+    padding-top: 20px;
+    padding-left: 0 !important ;
+  }
+  .emergency i {
+    text-align: start !important;
+  }
+  .feedback .feedback-img {
+    left: 197px !important;
+  }
+  .feedback .feedback-content .swiper-slide {
+    height: 328.59px !important;
+  }
+  .feedback .carousel-control-prev {
+    left: 37% !important;
+  }
+  .feedback .carousel-control-next {
+    right: 37% !important;
+  }
+  footer .footer-links {
+    margin: 0 !important;
+  }
+}
+/* @media (max-width: 576px) {
+  .search button {
+    right: 291px !important;
+  }
+} */
+
+@media (max-width: 404px) {
+  header .header-content a,
+  .about a,
+  .search button {
+    margin: 0 !important;
+    font-size: 12px !important;
+  }
+
+  .services .search button {
+    top: 111px;
+    right: 90px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .services .search form {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .services .search form input {
+    padding: 10px;
+    margin: 0 !important;
+  }
+  .services .search form input::placeholder {
+    font-size: 12px;
+  }
+
+  .about .about-img img {
+    width: 360px !important;
+    height: 100%;
+    top: 0 !important;
+    object-fit: cover;
+  }
+  .about .about-img .circle {
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    top: 82% !important;
+    left: 102px !important;
+  }
+  .visits .visit-img img {
+    object-fit: contain !important;
+    top: 0 !important;
+    height: fit-content !important;
+  }
+  .feedback .feedback-img {
+    left: 131px !important;
+  }
+  .best-service-content {
+    margin: 0 !important;
+    padding: 20px !important;
+  }
+  .carousel-control-prev:not(.feedback .carousel-control-prev) {
+    left: 66% !important;
+  }
+  .services .carousel-control-prev,
+  .services .carousel-control-next {
+    top: 8% !important;
+  }
+}

@@ -1,0 +1,134 @@
+:root {
+  --light-m-c: #0e63ff;
+  --dark-m-c: #171151;
+  --green: #10d0a1;
+  --bg-main-color: #fbfbfb;
+}
+/*start header*/
+.research-header {
+  background-image: url(../img/breadcrumb-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 464px;
+  position: relative;
+}
+.research-header span,
+.research-header span a {
+  color: white;
+  font-size: 18px;
+  line-height: 26px;
+  z-index: 1;
+  letter-spacing: 2px;
+  transition: 0.3s ease;
+}
+.research-header span a:hover {
+  color: var(--green);
+}
+.research-header h1 {
+  font-size: 55px;
+  line-height: 66px;
+  z-index: 1;
+}
+.research-header .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(23, 17, 81, 0.7);
+}
+/*end header*/
+/*start research*/
+
+.research .card-img {
+  border: 0;
+}
+.research .card-content a {
+  font-size: 24px;
+  line-height: 29px;
+}
+.research .card-content span {
+  font-size: 12px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+.research .research-read-more a {
+  font-size: 14px;
+  line-height: 26px;
+  border-radius: 5px;
+  width: fit-content;
+  transition: all 0.3s;
+}
+.research .research-read-more {
+  padding: 5px 20px;
+  border-radius: 5px;
+  width: fit-content;
+  transition: all 0.3s;
+}
+
+.research .research-read-more:hover a {
+  color: white !important ;
+}
+.research .research-read-more.research-read-more-bb a {
+  color: var(--light-m-c);
+}
+.research .research-read-more.research-read-more-bb {
+  background-color: #e6effe;
+}
+.research .research-read-more.research-read-more-bb:hover {
+  background-color: var(--light-m-c);
+}
+
+.research .research-read-more.research-read-more-p a {
+  color: #f72a75;
+}
+.research .research-read-more.research-read-more-p {
+  background-color: #feeaf1;
+}
+.research .research-read-more.research-read-more-p:hover {
+  background-color: #f72a75;
+}
+
+.research .research-read-more.research-read-more-g a {
+  color: var(--green);
+}
+.research .research-read-more.research-read-more-g {
+  background-color: #e8faf6;
+}
+.research .research-read-more.research-read-more-g:hover {
+  background-color: var(--green);
+}
+
+.research .research-read-more.research-read-more-b a {
+  color: #42bfff;
+}
+
+.research .research-read-more.research-read-more-b {
+  background-color: #ebf9ff;
+}
+.research .research-read-more.research-read-more-b:hover {
+  background-color: #42bfff;
+}
+
+.research .numbers a {
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid;
+  margin-left: 10px;
+  border-radius: 7px;
+  transition: all 0.3s ease;
+}
+.research .numbers a:not(.research .numbers a:nth-of-type(3)) {
+  border-color: #f2f5fa;
+  color: #8a879f;
+}
+
+.research .numbers a:hover,
+.research .numbers a:nth-of-type(3) {
+  background-color: var(--dark-m-c);
+  color: white !important;
+  border-color: var(--dark-m-c);
+}
+/*end research*/
